@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <h1>АЗИСОВ АРТУР</h1>
+    <p>мое день рождение 31 марта</p>
+    <p>я люблю кошек</p>
+    <p>у меня есть старший и младший брат</p>
+    <p>я учился в 12 гимназии</p>
+    <p>у меня есть крутые друзья</p>
+    <p>мое любимая еда - пицца</p>
+    <h2>ФОТО МИЛОЙ КОШКИ</h2>
+    <img src="https://petsmart.ru/uploads/mm/article/%D1%83%D0%BC%D0%BD%D1%8B%D0%B5%20%D0%BA%D0%BE%D1%88%D0%BA%D0%B81.png" alt="кошечка" />
+    <h1>Регистрация</h1>
+    
+    <form action="/register" method="post" id="registrationForm">
+        <fieldset>
+            <legend>Персональные данные</legend>
+            <div>
+                <label for="firstName">Имя:</label>
+                <input type="text" id="firstName" name="firstName" required placeholder="Введите ваше имя" minlength="2">
+            </div>
+
+            <div>
+                <label for="lastName">Фамилия:</label>
+                <input type="text" id="lastName" name="lastName" required placeholder="Введите вашу фамилию" minlength="2">
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="example@mail.com">
+            </div>
+
+            <div>
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required placeholder="Не менее 8 символов" minlength="8" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).+$" title="Пароль должен содержать заглавные и строчные буквы, цифры">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Дополнительная информация</legend>
+
+            <div>
+                <label>Пол:</label>
+                <label>
+                    <input type="radio" name="gender" value="male" required> Мужской
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="female"> Женский
+                </label>
+            </div>
+
+            <div>
+                <label>Интересы:</label>
+                <label>
+                    <input type="checkbox" name="interests" value="sports"> Спорт
+                </label>
+
+                <label>
+                    <input type="checkbox" name="interests" value="music"> Музыка
+                </label>
+
+                <label>
+                    <input type="checkbox" name="interests" value="books"> Книги
+                </label>
+            </div>
+            <div>
+                <label for="country">Страна:</label>
+                <select id="country" name="country" required>
+                    <option value="">Выберите страну</option>
+                    <option value="ru">Россия</option>
+                    <option value="us">США</option>
+                    <option value="de">Германия</option>
+                    <option value="fr">Франция</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="birthdate">Дата рождения:</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+            </div>
+
+        </fieldset>
+
+        <div>
+            <button type="submit">Зарегистрироваться</button>
+            <button type="reset">Очистить форму</button>
+        </div>
+    </form>
+</body>
+</html>

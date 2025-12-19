@@ -1,0 +1,133 @@
+html, body{
+    font-family: "Inter", sans-serif;
+} 
+h1, h2, h3, h4, h5, h6{
+    font-family: "Fraunces", serif;
+}
+.container{
+    max-width: 1130px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.inner-wrapper{
+    display: flex;
+    align-items: center;
+    padding-top: 145px;
+    padding-bottom: 80px;
+
+}
+.main-title{
+    font-weight: 400;
+    font-size: 58px;
+    max-width: 485px;
+    margin: 0 0 21px 0;
+}
+.main-subtitle{
+    font-size: 20px;
+    max-width: 351px;
+    line-height: 30px;
+    margin: 0 0 31px 0;
+}
+.book-button{
+    background-color: #0070a0;
+    padding: 8px 32px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 17px;
+    line-height: 27px;
+}
+.learn-more-link{
+    text-decoration: none;
+    color: #0070a0;
+    font-size: 17px;
+}
+.controls-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 30px;
+}
+
+.container-wrapper{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.companies-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.feature-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding-top: 160px;
+}
+
+.feature-card {
+    font-size: 25px;
+    font-weight: 400;
+    max-width: 355px;
+    width: 100%;
+    padding: 32px 32px 40px 32px;
+}
+.feature-img {
+    margin-bottom: 8px;
+    width: 55px;
+    height: 55px;
+}
+
+.feature-card-text{
+    font-size: 15px;
+    margin: 0
+}
+
+.feature-card-title {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0 0 11px 0;
+}
+
+.feature-card-yellow {
+    background-color: #FAEA73;
+}
+
+.feature-card-blue {
+    background-color: #CCEFF6;
+}
+
+.feature-card-pink {
+    background-color:#F7CEDC;
+}
+
+.gray-bg {
+    background-color: #F7F9FA;
+}
+
+.care-accordion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accordion-item-left {
+    display: flex;
+    align-items: center;
+}
+
+

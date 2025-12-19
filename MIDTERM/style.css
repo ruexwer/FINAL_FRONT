@@ -1,0 +1,46 @@
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+.icon{
+}
+
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    justify-content: space-between;
+}
+.link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.nav-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.text-project{
+    height: 64px;
+    width: 277px ;
+    font-weight: 300;
+    font-size: 64px;
+
+    color: #BDBDBD ;
+}
+.text-lorum{
+    height: 64px;
+    width: 166px;
+    font-weight: 700;
+    font-size: 64px;
+
+}
+.inner-wrapper {
+    display: flttex;
+    align-items: center;
+    padding-left: 135px;
+    justify-content: space-between;
+}

@@ -1,0 +1,39 @@
+body {
+    background-color: antiquewhite;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+#shopping-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 0;
+}
+
+input {
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+
+li {
+    list-style-type: none;
+    gap: auto;
+    justify-content: center;
+}
