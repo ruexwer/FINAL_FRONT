@@ -12,10 +12,6 @@ const movies = [
 { title: 'Avengers: Endgame', isAvailable: false },
 ]
 
-function clearFilmDisplay() {
-  filmDisplay.innerHTML = ''
-}
-
 function viewFilms() {
   clearFilmDisplay()
 

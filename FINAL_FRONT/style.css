@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(235, 241, 255);
+}
+
+.about-me-panel {
+    margin: 80px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.buttons-button {
+    padding: 24px 38px;
+    border: none;
+    background: #4085f4;
+    color: aliceblue;
+}
